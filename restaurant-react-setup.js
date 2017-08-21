@@ -1,3 +1,9 @@
+axios
+  .get("http://codepen.io/jobs.json")
+  .then(function(result) {
+    // we got it!
+  });
+
 function ApplicationHeader(props){
   return(
     <div className="header">
@@ -9,7 +15,6 @@ function ApplicationHeader(props){
 }
 
 function RestaurantList(props){
-
 	return(
     <div className="restaurant-panel">
       <h2 className="restaurant-panel_name">{props.restaurantName}</h2>
@@ -21,7 +26,6 @@ function RestaurantList(props){
 
 function RestaurantDetails(props){
   return(
-
   <div class="restaurant-container">
     <div className="restaurant-info">
       <h2 className="restaurant-name">{props.restaurantName}</h2>
@@ -51,5 +55,5 @@ function RestaurantMap(){
   )
 
 }
-
+/* I think the bottom code was from following a tutorial. Will come back to it.*/
 ReactDOM.render(<Restaurant />, document.getElementByID('restaurant-name'));
