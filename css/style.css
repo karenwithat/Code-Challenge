@@ -1,0 +1,87 @@
+.container{
+  width:480px;
+  height:800px;
+  margin:0 auto;
+  border:#ccc;
+  box-shadow: 2px 2px 2px rgba(22,22,22,.25);
+}
+
+.header{
+  background-color:#43e895;
+  height:60px;
+  /*hex: rgb(67,232,149)*/
+}
+
+/*STRUCTURE*/
+
+/*TYPOGRAPHY*/
+
+div[class^=restaurant]{
+  font-family:'Avenir Next Regular', Tahoma, sans-serif;
+}
+
+.restaurant-container{
+  background-color:#34B379;
+}
+.restaurant-name-info{
+  font-family:'Avenir Next Demi Bold';
+  font-size:17px;
+  color:#fff;
+}
+
+.restaurant-name-header{
+  background-color:#34B379;
+  /*background-color: rgb(52, 179, 121)*/
+  size:17pt;
+  color:#fff;
+  height:60px;
+  padding-left:12px;
+  text-align:center;
+
+}
+
+.restaurant-name{
+  font-family:'Avenir Next Demi Bold';
+  font-size:16px;
+  color:#ffffff;
+  margin-bottom:6px;
+}
+
+.restaurant-category{
+  font-family: 'Avenir Next Regular, sans-serif';
+  font-size:12px;
+  color:#fff;
+}
+
+.restaurant-address-formatted{
+  font-family: 'Avenir Next Regular';
+  font-size:12px;
+  margin-top:16px;
+  margin-bottom:26px;
+}
+
+.restaurant-phone_number{
+  margin-top:26px;
+}
+
+.restaurant-social_twitter{
+  font-family: 'Avenir Next Regular';
+  font-size:12px;
+  color:#2a2a2a;
+  margin-top:26px;
+}
+
+
+/*Restaurant Main Menu*/
+.restaurant-panel{
+  height:180px;
+  width:100%;
+  display: table-cell;
+  vertical-align:bottom;
+}
+
+.restaurant-panel_name{
+  font-family{'Avenir Next Demi Bold';
+}
+}
+.restaurant-panel_category{}
