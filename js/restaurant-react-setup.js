@@ -1,3 +1,4 @@
+
 axios
   .get("http://codepen.io/jobs.json")
   .then(function(result) {
@@ -8,7 +9,7 @@ function ApplicationHeader(props){
   return(
     <div className="header">
       <span className="button-direction"></span>
-      <h1 className="restaurant-name-header">{props.restaurant-name}</h1>
+      <h1 className="restaurant-name-header">{props.restaurantName}</h1>
       <span className="icon-map"></span>
     </div>
   )
@@ -16,10 +17,8 @@ function ApplicationHeader(props){
 
 function RestaurantList(props){
 	return(
-    <div className="restaurant-panel">
       <h2 className="restaurant-panel_name">{props.restaurantName}</h2>
       <h3 className="restaurant-panel_category">{props.restaurantCategory}</h3>
-    </div>
 
 )
 }
@@ -56,4 +55,4 @@ function RestaurantMap(){
 
 }
 /* I think the bottom code was from following a tutorial. Will come back to it.*/
-ReactDOM.render(<Restaurant />, document.getElementByID('restaurant-name'));
+React.render(<RestaurantList source="http://sandbox.bottlerocketapps.com/BR_iOS_CodingExam_2015_Server/restaurants.json"/>, document.getElementByID('appContainer'));
