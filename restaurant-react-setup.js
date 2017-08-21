@@ -26,17 +26,17 @@ function RestaurantList(props){
 
 function RestaurantDetails(props){
   return(
-  <div class="restaurant-container">
-    <div className="restaurant-info">
-      <h2 className="restaurant-name">{props.restaurantName}</h2>
-      <h3 className="restaurant-category">{props.restaurantCategory}</h3>
-    </div>
-    <div class="restaurant-details">
-        <span class="restaurant-address-formatted">{props.restaurantAddressFormatted}</span>
-        <span class="restaurant-phone_number">{props.phoneNumber}</span>
-        <span class="restaurant-social_twitter">{props.twitter}</span>
+    <div class="restaurant-container">
+      <div className="restaurant-info">
+        <h2 className="restaurant-name">{props.restaurantName}</h2>
+        <h3 className="restaurant-category">{props.restaurantCategory}</h3>
       </div>
-    </div>
+      <div class="restaurant-details">
+          <span class="restaurant-address-formatted">{props.restaurantAddressFormatted}</span>
+          <span class="restaurant-phone_number">{props.phoneNumber}</span>
+          <span class="restaurant-social_twitter">{props.twitter}</span>
+        </div>
+      </div>
   )
 }
 
